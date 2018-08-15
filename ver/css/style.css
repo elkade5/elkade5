@@ -1,0 +1,142 @@
+
+body{background:linear-gradient(#E65F65,#152554,black)no-repeat;overflow:hidden;}
+.container{width:750px; margin:auto;}
+h2{text-transform:uppercase;}
+.clearfix{clear:both;}
+/*start right-aside*/
+
+.right-aside {
+    width: 50%;
+    overflow: hidden;
+    float: right;
+    text-align: center;
+	margin: 10% 0%;
+}
+.line-r {
+    color: #d1d1d1;
+    width: 20%;
+    border: 1px solid #d1d1d1;
+    position: relative;
+    right: -100px;
+    top: 68px;
+}
+.line-l {
+    color: #d1d1d1;
+    width: 20%;
+    border: 1px solid #d1d1d1;
+    position: relative;
+    left: -100px;
+    top: 60px;
+}
+.far.fa-user {
+    color: #d1d1d1;
+    font-size: 40px;
+    border: 1px solid #d1d1d1;
+    border-radius: 250px/235px;
+    padding: 5% 6%;
+	margin: 0% 0% 5% 0px;
+}
+.right-aside form .far.fa-user {
+    background: linear-gradient(#843B51,#1C295B);
+position: absolute;
+top: 260px;
+right: 351px;
+padding: 5px 16px;
+border-radius: 7px;
+font-size: 25px;
+border: none;
+    color: #d1d1d1;
+
+}
+
+.right-aside input[type=text]{  
+width: 37%;
+margin: 2% 0;
+height: 35px;
+border-radius: 7px;
+border: none;
+background: #cececb;
+color: #151415;
+display: inline-block;
+padding-left: 110px;
+text-transform: uppercase;}
+.right-aside .fas.fa-lock {
+    background: linear-gradient(#843B51,#1C295B);
+position: absolute;
+top: 318px;
+right: 351px;
+padding: 5px 16px;
+border-radius: 7px;
+font-size: 25px;
+border: none;
+    color: #d1d1d1;
+
+}
+.right-aside input[type=password]{  
+ width: 37%;
+margin: 2% 0;
+height: 35px;
+border-radius: 7px;
+border: none;
+background: #cececb;
+color: #151415;
+display: inline-block;
+padding-left: 110px;
+}
+	
+.right-aside button {
+    background: #FF5187;
+    border: none;
+    width: 58%;
+    border-radius: 7px;
+    padding: 8px;
+    margin-top: 6%;
+    color: white;
+}
+.right-aside input[type=checkbox]{}
+
+.right-aside #ossm {
+    display: block;
+    width: 5%;
+    height: 25px;
+    border: 2px solid #c8c8c8;
+    border-radius: 10px;
+    margin: 5% 22%;
+}
+.re-me {
+    color: #c6c0c0;
+    float: left;
+    position: relative;
+    top: -50px;
+    left: 155px;
+}
+.l-f {
+    text-decoration: none;
+    color: #c6c0c0;
+    float: right;
+    margin: -10% 21% 0% 0%;
+		font-style: italic;
+
+}
+.line-d {
+    width: 58%;
+    margin: 6% 4%;
+    color: #d1d1d1;
+}
+/*end right-aside*/
+
+
+/*start left-aside*/
+
+.left-aside .i-1 {
+    width: 40%;
+    margin: 25% 5%;
+    overflow: hidden;
+}
+.left-aside .i-2 {
+
+}
+
+/*end left-aside*/
+
+
